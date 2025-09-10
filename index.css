@@ -19,7 +19,7 @@ body {
   margin: 0;
 }
 .enlaces a {
-  margin-left: 50px;
+  margin-left: 40px;
   text-align: right;
   text-decoration: none;
   color: black;
@@ -54,8 +54,8 @@ body {
   height: 20px;
   width: 100px;
 }
-.Calendar a {
+.economia-title {
+  font-size: 48px;
+  font-family: Arial;
   text-decoration: none;
-  font-size: 38px;
-  color: black;
 }
