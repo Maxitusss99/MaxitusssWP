@@ -1,14 +1,9 @@
 body {
   background: repeating-linear-gradient(purple,hotpink,purple);
-  font-family: Arial;
-  height: 1000px;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
+  height: 1200px;
   text-align: center;
-  align-items: center;
 }
-.encabezado {
+header {
   display: flex;
   padding: 20px;
   align-items: center;
@@ -18,45 +13,10 @@ body {
   gap: 30px;
   margin: 0;
 }
-.enlaces a {
+.enllaços a {
   margin-left: 20px;
   text-align: right;
   text-decoration: none;
   color: black;
   font-size: 20px;
-}
-.Titulo-principal {
-  font-size: 72px;
-  font-family: monospace;
-  animation: typing 3s steps(40, end), blink 1s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  margin: auto;
-  padding: 50px;
-  letter-spacing: .05em;
-}
-.descripcion-principal {
-  font-family: Arial;
-  font-size: 32px;
-  text-align: center;
-  padding-inline: 72px;
-}
-@keyframes typing {
-  from{
-    width: 0; } to {width: 100%;}
-}
-@keyframes blink {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(0, 0, 0) }
-}
-.search-google {
-  margin-left: 50px;
-  height: 20px;
-  width: 100px;
-}
-.economia-title {
-  font-size: 48px;
-  font-family: Arial;
-  text-decoration: none;
-
 }
