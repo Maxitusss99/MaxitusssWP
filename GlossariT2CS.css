@@ -1,0 +1,16 @@
+table {
+    border: 2px solid black;
+    margin:auto;
+    height: 500px;
+}
+body {
+    margin-left: auto;
+    text-align: center;
+    background-color: salmon;
+    font-family: Arial;
+
+}
+th, td {
+    border: 1px solid black;
+    font-size: 18px;
+}
