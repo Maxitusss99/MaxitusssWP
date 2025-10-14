@@ -19,7 +19,7 @@ body {
   margin: 0;
 }
 .enlaces a {
-  margin-left: 40px;
+  margin-left: 20px;
   text-align: right;
   text-decoration: none;
   color: black;
@@ -58,4 +58,5 @@ body {
   font-size: 48px;
   font-family: Arial;
   text-decoration: none;
+
 }
